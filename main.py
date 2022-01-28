@@ -2,7 +2,7 @@ from aiohttp import web  # основной модуль aiohttp
 import jinja2  # шаблонизатор jinja2
 import aiohttp_jinja2  # адаптация jinja2 к aiohttp
 
-# в этой функции производится настройка url-путей для всего приложения
+# в этой функцииzzzzzzzzzzzzzz производится настройка url-путей для всего приложения
 def setup_routes(application):
    from app.forum.routes import setup_routes as setup_forum_routes
    setup_forum_routes(application)  # настраиваем url-пути приложения forum
